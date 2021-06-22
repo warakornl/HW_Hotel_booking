@@ -1,15 +1,9 @@
-import Form.HomeForm;
-import Form.RoomNumberForm;
-
 import javax.swing.*;
 import java.util.ArrayList;
 
 public class HotelBookings {
     private static double currentlyPrice;
     public static void main(String args[]){
-//        HomeForm homeForm = new HomeForm();
-//        homeForm.startHomeFrame();
-
         ArrayList<String> roomsBooked = new ArrayList<String>();
         String mainMenuChoice = "";
 
